@@ -11,7 +11,7 @@ change default pthread stack size )
 
 void* Proc(void* param)
 {
-    printf("Yuvraj Singh Solanki");
+    	printf("Yuvraj Singh Solanki");
 	sleep(2);
 	return 0;
 }
