@@ -14,7 +14,7 @@ void *thread_fun1(void *arg)
 {
 	pthread_mutex_lock(&my_mutex);
 	printf("Inside function1\n");
-	sleep(3);
+	sleep(5);
 	pthread_mutex_unlock(&my_mutex);
 }
 
@@ -22,7 +22,7 @@ void *thread_fun2(void *arg)
 {
 	pthread_mutex_lock(&my_mutex);
 	printf("Inside function2\n");
-	sleep(3);
+	sleep(5);
 	pthread_mutex_unlock(&my_mutex);
 }
 
